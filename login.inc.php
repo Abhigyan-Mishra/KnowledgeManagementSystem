@@ -70,13 +70,15 @@ if(isset($_POST['username'])&&isset($_POST['password']))
 </head>
 <body>
 	<center>
-		<img src="RLA1.jpg" width="200" height="200">
+		<img src="VIT.jpg" width="200" height="200">
 		<br>
 		<br>
 		<div class="container">
 			<div class="jumbotron">
 				<div class="TITLE">
-					
+					<h1>Login
+						<br> 
+					</h1>
 				</div>
 				<form action="<?php echo $current_file; ?>" method="post">
 				  <div class="form-group">
